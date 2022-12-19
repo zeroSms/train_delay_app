@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="delay predict" content="width=device-width, initial-scale=1.0">
+  <title>top page</title>
+  <!-- BootstrapのCSS読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+</head>
+
+<body>
+  <div class="content">
+
+    <h1 style="height:120px" class="d-flex align-items-center justify-content-center"><i class="fa fa-train" aria-hidden="true"></i>&nbsp中央線遅延予測</h1>
+    <nav class="navbar navbar-expand-lg navbar-light p-4" style="background-color:#ff8c00">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar2">
+        <div class="navbar-nav ml-auto mr-auto">
+          <a class="nav-item nav-link h5" href="index.html">遅延情報</a>
+          <a class="nav-item nav-link h5 text-dark" href="search.html">ルート検索</a>
+        </div>
+      </div>
+    </nav>
+    <br />
+
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+
+        <form action="http://localhost:8080/cgi-bin/post_get_test.py" method="POST">
+
+          <fieldset style="height:160px" class="form-gruap">
+            <div class="form-gruap">
+              <legend>出発駅</legend>
+              <div class="col-sm-12">
+                <select class="form-control" name="station1" id="name">
+                  <option value="staition">--- 出発駅を選択してください ---</option>
+                  <option value="東京">東京</option>
+                  <option value="神田">神田</option>
+                  <option value="御茶ノ水">御茶ノ水</option>
+                  <option value="四谷">四谷</option>
+                  <option value="新宿">新宿</option>
+                  <option value="中野">中野</option>
+                  <option value="高円寺">高円寺</option>
+                  <option value="阿佐ヶ谷">阿佐ヶ谷</option>
+                  <option value="荻窪">荻窪</option>
+                  <option value="西荻窪">西荻窪</option>
+                  <option value="吉祥寺">吉祥寺</option>
+                  <option value="三鷹">三鷹</option>
+                  <option value="武蔵境">武蔵境</option>
+                  <option value="国分寺">国分寺</option>
+                  <option value="立川">立川</option>
+                  <option value="日野">日野</option>
+                  <option value="豊田">豊田</option>
+                  <option value="八王子">八王子</option>
+                  <option value="西八王子">西八王子</option>
+                  <option value="高尾">高尾</option>
+                </select>
+              </div>
+            </div>
+            <br />
+            <div class="form-gruap">
+              <legend>到着駅</legend>
+              <div class="col-sm-12">
+                <select class="form-control" name="station2" id="name">
+                  <option value="staition">--- 到着駅を選択してください ---</option>
+                  <option value="東京">東京</option>
+                  <option value="神田">神田</option>
+                  <option value="御茶ノ水">御茶ノ水</option>
+                  <option value="四谷">四谷</option>
+                  <option value="新宿">新宿</option>
+                  <option value="中野">中野</option>
+                  <option value="高円寺">高円寺</option>
+                  <option value="阿佐ヶ谷">阿佐ヶ谷</option>
+                  <option value="荻窪">荻窪</option>
+                  <option value="西荻窪">西荻窪</option>
+                  <option value="吉祥寺">吉祥寺</option>
+                  <option value="三鷹">三鷹</option>
+                  <option value="武蔵境">武蔵境</option>
+                  <option value="国分寺">国分寺</option>
+                  <option value="立川">立川</option>
+                  <option value="日野">日野</option>
+                  <option value="豊田">豊田</option>
+                  <option value="八王子">八王子</option>
+                  <option value="西八王子">西八王子</option>
+                  <option value="高尾">高尾</option>
+                </select>
+              </div>
+            </div>
+            <br />
+            <div class="col text-center">
+              <button type="submit" class="btn btn-success pull-center btn btn-primary btn-lg">検索</button>
+            </div>
+
+          </fieldset>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

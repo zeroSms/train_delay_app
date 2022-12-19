@@ -1,0 +1,536 @@
+[
+    {
+        "@id": "urn:uuid:b3167ce2-859a-4dff-983b-b14d7099a26c",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.ChuoSobuLocal",
+        "odpt:railway": "odpt.Railway:JR-East.ChuoSobuLocal",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:56f09f1c-2f8f-48b5-995d-4c357d113e15",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Hachiko",
+        "odpt:railway": "odpt.Railway:JR-East.Hachiko",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:f79d367d-9ff8-40b5-9d36-2654d5f0db42",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Ito",
+        "odpt:railway": "odpt.Railway:JR-East.Ito",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:4d35756f-623f-4138-93cd-75ec20bfe1fc",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Itsukaichi",
+        "odpt:railway": "odpt.Railway:JR-East.Itsukaichi",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:04df3557-1850-41e8-bdab-b43627edb912",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Joban",
+        "odpt:railway": "odpt.Railway:JR-East.Joban",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:railDirection": "odpt.RailDirection:BothDirections",
+        "odpt:trainInformationText": {
+            "ja": "èÌî÷ê¸ÇÕÅAèÌî÷ê¸âıë¨ìdé‘Ç≈ÇÃé‘óºì_åüÇÃâeãøÇ≈ÅAïiêÏÅ`éÊéËâwä‘ÇÃè„â∫ê¸Ç≈â^ì]Çå©çáÇÌÇπÇƒÇ¢Ç‹Ç∑ÅBâ^ì]çƒäJÇÕÇPÇVéûÇQÇOï™ç†Çå©çûÇÒÇ≈Ç¢Ç‹Ç∑ÅB"
+        },
+        "odpt:trainInformationCause": {
+            "en": "Car inspection",
+            "ja": "é‘óºì_åü"
+        },
+        "odpt:trainInformationStatus": {
+            "en": "Operation will resume",
+            "ja": "â^ì]å©çáÇÌÇπ"
+        }
+    },
+    {
+        "@id": "urn:uuid:64d1cf1e-337a-4fa2-ae8e-fa5939ec9a03",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.JobanLocal",
+        "odpt:railway": "odpt.Railway:JR-East.JobanLocal",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:2734cfb4-15c1-42b2-8276-f4856caf4194",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.JobanRapid",
+        "odpt:railway": "odpt.Railway:JR-East.JobanRapid",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:railDirection": "odpt.RailDirection:BothDirections",
+        "odpt:trainInformationText": {
+            "ja": "èÌî÷ê¸âıë¨ìdé‘ÇÕÅAñkêÁèZÅ`èºåÀâwä‘Ç≈ÇÃé‘óºì_åüÇÃâeãøÇ≈ÅAïiêÏÅ`éÊéËâwä‘ÇÃè„â∫ê¸Ç≈â^ì]Çå©çáÇÌÇπÇƒÇ¢Ç‹Ç∑ÅBâ^ì]çƒäJÇÕÇPÇVéûÇQÇOï™ç†Çå©çûÇÒÇ≈Ç¢Ç‹Ç∑ÅB"
+        },
+        "odpt:trainInformationCause": {
+            "en": "Car inspection",
+            "ja": "é‘óºì_åü"
+        },
+        "odpt:trainInformationStatus": {
+            "en": "Operation will resume",
+            "ja": "â^ì]å©çáÇÌÇπ"
+        }
+    },
+    {
+        "@id": "urn:uuid:a46be086-f547-44c2-8c00-8e2b4f58346e",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Kashima",
+        "odpt:railway": "odpt.Railway:JR-East.Kashima",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:bfb26e91-87fa-42d1-9356-938866e17365",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Kawagoe",
+        "odpt:railway": "odpt.Railway:JR-East.Kawagoe",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:9e26ca10-29cb-4886-ab39-e8a02abf5682",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.KeihinTohokuNegishi",
+        "odpt:railway": "odpt.Railway:JR-East.KeihinTohokuNegishi",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:dc58f444-b8e5-42bb-8c42-0c3d4084641a",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Keiyo",
+        "odpt:railway": "odpt.Railway:JR-East.Keiyo",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:0afd6695-9d08-4f6e-bef3-79922b161605",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Kururi",
+        "odpt:railway": "odpt.Railway:JR-East.Kururi",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:82bc609f-07a6-43cc-aae2-d5d65309d97d",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Musashino",
+        "odpt:railway": "odpt.Railway:JR-East.Musashino",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:7aee29f6-ccad-4ee7-86b6-a43925b59163",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Nambu",
+        "odpt:railway": "odpt.Railway:JR-East.Nambu",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:5c69c522-b981-45f2-a5c2-ed61a9eb058a",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.NambuBranch",
+        "odpt:railway": "odpt.Railway:JR-East.NambuBranch",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:134404ee-65ad-4a93-b17c-1d6a0cde6094",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Narita",
+        "odpt:railway": "odpt.Railway:JR-East.Narita",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:d2c42246-45c3-44ff-8cdb-77a0bf3ea9ed",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.NaritaAbikoBranch",
+        "odpt:railway": "odpt.Railway:JR-East.NaritaAbikoBranch",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:b5b38f4d-e655-4f36-aab0-74371f1d4d50",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.NaritaAirportBranch",
+        "odpt:railway": "odpt.Railway:JR-East.NaritaAirportBranch",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:2fa209a9-78d2-4c25-9f0d-d24f269e751a",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Ome",
+        "odpt:railway": "odpt.Railway:JR-East.Ome",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:ebbf3084-7095-46c2-b226-3032ac0d50f8",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Sagami",
+        "odpt:railway": "odpt.Railway:JR-East.Sagami",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:df1385bc-3c90-4a11-b191-b3f52fc7d3b0",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.SaikyoKawagoe",
+        "odpt:railway": "odpt.Railway:JR-East.SaikyoKawagoe",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:ec5f0a66-4554-4382-9bb5-313bcaf890e3",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.ShonanShinjuku",
+        "odpt:railway": "odpt.Railway:JR-East.ShonanShinjuku",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:52a26e2d-0529-49fc-930c-e310df95573a",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Sobu",
+        "odpt:railway": "odpt.Railway:JR-East.Sobu",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:686cb4f7-4d33-477f-8022-c9ecd95693d7",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.SobuRapid",
+        "odpt:railway": "odpt.Railway:JR-East.SobuRapid",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:556d4ebb-4d43-4736-8d11-5c50bd056247",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Sotobo",
+        "odpt:railway": "odpt.Railway:JR-East.Sotobo",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:f0c15c25-4c01-4661-8dbf-f2cd2fbb5fdb",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Takasaki",
+        "odpt:railway": "odpt.Railway:JR-East.Takasaki",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:138333ad-2754-4592-8c7a-07dcb6bef996",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Togane",
+        "odpt:railway": "odpt.Railway:JR-East.Togane",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:016af785-5046-41d2-a012-428428e0efd5",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Tokaido",
+        "odpt:railway": "odpt.Railway:JR-East.Tokaido",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:bb7ed72b-358d-4c85-ac06-531a10443ee8",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Tsurumi",
+        "odpt:railway": "odpt.Railway:JR-East.Tsurumi",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:7b6ee027-2388-4651-b78b-2675bb552a07",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.TsurumiOkawaBranch",
+        "odpt:railway": "odpt.Railway:JR-East.TsurumiOkawaBranch",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:f045e730-5e7a-45fe-b705-b2a46b48194e",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.TsurumiUmiShibauraBranch",
+        "odpt:railway": "odpt.Railway:JR-East.TsurumiUmiShibauraBranch",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:8aa89351-83d0-4814-9268-85bef1f1c190",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Uchibo",
+        "odpt:railway": "odpt.Railway:JR-East.Uchibo",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:906cbb3c-2979-4258-ba73-2aab2f43ac4e",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Utsunomiya",
+        "odpt:railway": "odpt.Railway:JR-East.Utsunomiya",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:ff8f9fe4-2f5b-4e24-87b0-e7004ce4a4c5",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Yamanote",
+        "odpt:railway": "odpt.Railway:JR-East.Yamanote",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:f155bd5b-c180-4a3e-aa92-531a549e65be",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Yokohama",
+        "odpt:railway": "odpt.Railway:JR-East.Yokohama",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:91eaf6b6-75a1-44e8-8ac5-5290dbc49c5c",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.Yokosuka",
+        "odpt:railway": "odpt.Railway:JR-East.Yokosuka",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    },
+    {
+        "@id": "urn:uuid:35a1666f-38b4-4de1-8f6c-2b216f0a6055",
+        "@type": "odpt:TrainInformation",
+        "dc:date": "2020-11-16T17:15:01+09:00",
+        "@context": "http://vocab.odpt.org/context_odpt.jsonld",
+        "dct:valid": "2020-11-16T17:20:01+09:00",
+        "owl:sameAs": "odpt.TrainInformation:JR-East.ChuoRapid",
+        "odpt:railway": "odpt.Railway:JR-East.ChuoRapid",
+        "odpt:operator": "odpt.Operator:JR-East",
+        "odpt:trainInformationText": {
+            "en": "Service on schedule",
+            "ja": "ïΩèÌâ^ì]"
+        }
+    }
+]
